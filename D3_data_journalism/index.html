@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <title>D3Times</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/d3Style.css">
 
@@ -14,31 +19,47 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-12">
-        <h1>D3Times</h1>
+        <br>
+        <section style="background-color: rgb(245, 245, 245); padding: 10px;">
+        <h1><strong>D3Times</strong></h1>
+        </section>
       </div>
     </div>
+    <hr>
+    <br>
     <div class="row">
-      <div class="col-xs-12  col-md-9">
+      <div class="chart-title"></div>
+      <div class="col-md-12">
         <div id="scatter">
           <!-- We append our chart here. -->
         </div>
       </div>
     </div>
+    <br>
+    <hr>
+    <br>
     <div class="row">
-      <div class="col-xs-12  col-md-9">
+      <div class="col-md-12">
         <div class="article">
           <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <br>
+          <p> There is clearly a relationship between household income  and the occurrence 
+              of obesity and smoking.  The higher the income the less likeliness of these two measures of health risks. Analyzing 
+              Household Income against Lacks Healthcare, there is a noticeable increase of risk with lesser incomes.  Again, the 
+              Southeastern States rank poorer than other states for healthcare, and the Northeastern states are faring better.  
+              Two individual sates are on the extremes; TX and MA would be worth looking into for reasons as to why TX has such a 
+              high percentage of population lacking healthcare, and why MA is very low.
+          </p>
+          <br>
+          <p> As expected, there is a negative correlation between age and percentage of the population lacking healthcare.
+              This can be seen as the younger generations struggle to secure jobs that provide healthcare. Another contributing
+              factor could be that healthcare becomes a higher priority the older one gets.
+          </p>
+          <br>
+          <p> Overall, a general trend can be seen that with the increase of poverty percentage within a US state, 
+              there is an increase in all health concerns.  Additional observation reveals a trend of higher poverty 
+              percentages in Southeastern States, along with higher incidences of percentages of all three comparisons provided.
+          </p>
         </div>
       </div>
     </div>
@@ -46,12 +67,9 @@
 
   <!-- Footer-->
   <div id="footer">
-    <p>The Coding Boot Camp&copy;2016</p>
+    <p>Case Western Reserve Data Analytics Boot Camp&copy;2020  - Diego Gonzalez</p>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+
   <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
