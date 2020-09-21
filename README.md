@@ -1,5 +1,7 @@
 # D3 Homework - Data Journalism and D3
 
+* Diego Gonzalez - [@dlg410](https://github.com/dlg410)
+
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
 ## Background
@@ -76,8 +78,8 @@ Your final product will be assessed on the following metrics:
 
 * Professionalism
 
-**Good luck!**
+<!-- **Good luck!** -->
 
 ### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
+<!-- Trilogy Education Services © 2019. All Rights Reserved. -->
